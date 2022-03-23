@@ -6,8 +6,10 @@
 .pnp.js
 
 # IDE
+.idea/
 /.idea
 /.vs
+.vs/
 
 # testing
 /coverage
