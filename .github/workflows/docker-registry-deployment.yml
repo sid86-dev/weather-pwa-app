@@ -21,7 +21,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: ghcr.io/sid86-dev/google-docs-clone
+          images: ghcr.io/sid86-dev/${{ github.event.repository.name }}
           tag-sha: true
           tag-edge: false
           tag-latest: true
